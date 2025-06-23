@@ -10,8 +10,8 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 
-	"github.com/manish-id/manish-backend/model"
 	"github.com/manish-id/manish-backend/config"
+	"github.com/manish-id/manish-backend/model"
 )
 
 func CreateProduct(c *fiber.Ctx) error {
